@@ -1,0 +1,131 @@
+*{
+    box-sizing: border-box;
+}
+
+html,body{
+    margin: 0%;
+    padding:0;
+    font-size: 16px;
+}
+
+
+
+/* Header */
+header{
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    background-color: white;
+}
+header h1{
+    text-align: center;
+    text-shadow: 2px 2px black;
+    font-size: 2.5rem;
+}
+nav{
+    width: 100%;
+    background-color: black;
+    
+}
+
+nav ul{
+    padding: 0;
+}
+
+nav li{
+    list-style-type: none;
+    display: inline-block;
+    margin: 0.85rem;
+   
+}
+
+nav a{
+    font-size: 2rem;
+    color: white;
+    text-decoration: none;
+}
+
+/* main */
+h2{
+    text-align: center;
+    margin-top: 2rem;
+   
+}
+
+.main{
+    background-image: url('https://content.codecademy.com/courses/freelance-1/unit-4/img-myrtle-ave.jpg');
+    width: 1200px;
+    height: 500px;
+    margin: 0px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top:170px;
+}
+
+.mainContain{
+    background-color: white;
+    width: 100%;
+    border-radius: 10px;
+    text-align: center;
+    line-height: 0.85em;
+    opacity: 0.75;
+}
+
+.portfolio{
+    width: 950px;
+    margin: 1.5rem auto;
+    position: relative;
+    top: 170px;
+
+}
+
+
+.portfolioContainer{
+    display: flex;
+    max-width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-around;
+   
+}
+
+.portfolioContainer figure{
+    margin: 10px 0px;
+    text-align: center;
+}
+
+.portfolioContainer figure img{
+    width: 300px;
+    border-radius: 1rem;
+}
+
+.team{
+    position: relative;
+    top: 170px;
+}
+
+.teamMemeber{
+    display: flex;
+    width: 1200px;
+    justify-content: space-around;
+    margin: 1rem auto;
+}
+
+.teamMemeber figure{
+    margin: 10px 0px;
+    text-align: center;
+}
+.teamMemeber figure img{
+    width: 350px;
+    height: 400px;
+}
+
+/* footer */
+footer{
+    position: relative;
+    top: 170px;
+    font-size: 0.8rem;
+}
+
+
